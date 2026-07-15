@@ -1,0 +1,6 @@
+# Build artifacts — the xcframeworks/zips are published as GitHub Release assets, not committed.
+.build/
+xcframeworks/
+release/
+*.xcarchive
+.DS_Store
