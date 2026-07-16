@@ -22,7 +22,7 @@
 set -euo pipefail
 
 VERSION="${1:?usage: ./build.sh <rxswift-version> [owner/repo]}"
-REPO="${2:-alex-pan-invos/rxswift-dynamic-xcframework}"
+REPO="${2:-mdata-group/rxswift-dynamic-xcframework}"
 # Release/download tag. Defaults to VERSION, but the prebuilt xcframeworks are
 # tied to the Swift toolchain that produced their .swiftinterface, so a rebuild
 # with a different Xcode must publish under a distinct tag (e.g. RELEASE_TAG=6.7.0-xcode26.2).

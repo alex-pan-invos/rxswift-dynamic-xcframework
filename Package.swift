@@ -15,23 +15,23 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "RxSwift",
-            url: "https://github.com/alex-pan-invos/rxswift-dynamic-xcframework/releases/download/6.7.0-xcode26.2/RxSwift.xcframework.zip",
+            url: "https://github.com/mdata-group/rxswift-dynamic-xcframework/releases/download/6.7.0-xcode26.2/RxSwift.xcframework.zip",
             checksum: "ec0a178afe7a54e3c20d719c59d4fd49d6ac8129272b81507643ce33fa3448a2"),
         .binaryTarget(
             name: "RxRelay",
-            url: "https://github.com/alex-pan-invos/rxswift-dynamic-xcframework/releases/download/6.7.0-xcode26.2/RxRelay.xcframework.zip",
+            url: "https://github.com/mdata-group/rxswift-dynamic-xcframework/releases/download/6.7.0-xcode26.2/RxRelay.xcframework.zip",
             checksum: "6d7d36dc4b6099e193412c809a5f287f5c201f988be45b421a9f8faf6d03d56e"),
         .binaryTarget(
             name: "RxCocoa",
-            url: "https://github.com/alex-pan-invos/rxswift-dynamic-xcframework/releases/download/6.7.0-xcode26.2/RxCocoa.xcframework.zip",
+            url: "https://github.com/mdata-group/rxswift-dynamic-xcframework/releases/download/6.7.0-xcode26.2/RxCocoa.xcframework.zip",
             checksum: "ff6f0cadbd18e04993c8eb677eef7cb6bcc6a5b478e0348a630bc2799d044b25"),
         .binaryTarget(
             name: "RxTest",
-            url: "https://github.com/alex-pan-invos/rxswift-dynamic-xcframework/releases/download/6.7.0-xcode26.2/RxTest.xcframework.zip",
+            url: "https://github.com/mdata-group/rxswift-dynamic-xcframework/releases/download/6.7.0-xcode26.2/RxTest.xcframework.zip",
             checksum: "89b8de2879b27dbc2c76e1defb1edb7b6797855e207a2217f8f6fb8e0131d4b3"),
         .binaryTarget(
             name: "RxBlocking",
-            url: "https://github.com/alex-pan-invos/rxswift-dynamic-xcframework/releases/download/6.7.0-xcode26.2/RxBlocking.xcframework.zip",
+            url: "https://github.com/mdata-group/rxswift-dynamic-xcframework/releases/download/6.7.0-xcode26.2/RxBlocking.xcframework.zip",
             checksum: "d216b6296a5de69ee8818e61bff11853b653126b8f1abe7467383a14370459c5"),
     ]
 )

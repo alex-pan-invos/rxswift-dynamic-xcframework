@@ -66,7 +66,7 @@ the "missing required module 'RxCocoaRuntime'" SwiftPM error.
 ```swift
 // Package.swift
 dependencies: [
-    .package(url: "https://github.com/alex-pan-invos/rxswift-dynamic-xcframework", exact: "6.7.0"),
+    .package(url: "https://github.com/mdata-group/rxswift-dynamic-xcframework", exact: "6.7.0"),
 ],
 targets: [
     .target(name: "App", dependencies: [
